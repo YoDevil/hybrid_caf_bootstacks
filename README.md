@@ -1,23 +1,25 @@
 Bootstacks Hybrid for LG G2 CAF
 =====================================
 
-Variant | Aboot Version     | Bootstacks Version | Loki / Bump Support 	   | Assert zip 	    | CM Version
--------:|:-----------------:|:------------------:|:-----------------------:|:------------------:|:------------
-D800    | KitKat 	    	| Lollipop           | Only Bump			   | Yes  			    | CM 12.1 CAF
-D801    | KitKat   	    	| Lollipop           | Only Bump		  	   | Yes  				| CM 12.1 CAF
-D802    | KitKat	   		| Lollipop           | Only Bump 		 	   | Yes 				| CM 12.1 CAF
-F320    | KitKat     		| Lollipop           | Only Bump		   	   | Yes  				| CM 12.1 CAF
-LS980   | KitKat  	   	 	| Lollipop           | Only Bump		  	   | Yes				| CM 12.1 CAF
-VS980   | KitKat 	   	 	| Lollipop           | Only Bump			   | Yes 				| CM 12.1 CAF
+Variant | Aboot/Laf Ver. | Bootstacks Ver. | Loki/Bump Support   | Assert zip | CM Ver.
+-------:|:--------------:|:---------------:|:-------------------:|:----------:|:------------
+D800    | KitKat 	     | Lollipop        | Only Bump			 | Yes  	  | CM 12.1 CAF
+D801    | KitKat   	     | Lollipop        | Only Bump		  	 | Yes  	  | CM 12.1 CAF
+D802    | KitKat	   	 | Lollipop        | Only Bump 		 	 | Yes 		  | CM 12.1 CAF
+D803    | KitKat	   	 | KitKat          | Only Bump 		 	 | Yes 		  | CM 12.1 CAF
+D805/6  | KitKat	   	 | Lollipop        | Only Bump 		 	 | Yes 		  | CM 12.1 CAF
+F320    | KitKat     	 | Lollipop        | Only Bump		   	 | Yes  	  | CM 12.1 CAF
+LS980   | KitKat  	   	 | Lollipop        | Only Bump		  	 | Yes		  | CM 12.1 CAF
+VS980   | KitKat 	   	 | Lollipop        | Only Bump			 | Yes 		  | CM 12.1 CAF
 
 <b>-FAQ-</b> <br/> <br/>
 <b>What is bootstrap?</b>  <br/>
-It's a set of images, that are essential for your device. These hybrid bootstracks use all the images from lollipop, except aboot, that is from kitkat. So, we can have bump working with LP partitions.
+It's a set of images, that are essential for your device. These hybrid bootstracks use all the images from lollipop, except aboot & laf, that are from kitkat. So, we can have bump working with LP partitions.
 	
-<b>What is in it?</b> <br/>
+<b>What is in it? (Except D803)</b> <br/>
 -Aboot (KK)<br/>
 -Dbi (LP)<br/>
--Laf (LP/KK)<br/>
+-Laf (KK)<br/>
 -Modem (LP)<br/>
 -Rpm (LP)<br/>
 -Sbl1  (LP)<br/>
@@ -31,6 +33,15 @@ Because I updated all the aboot files to KK, and only JB supports loki.
 	
 <b>Why you updated aboot to KitKat?</b> <br/>
 Because KK bootloader is more reliable, and I can merge the original kernel cmdline.
+
+<b>I can't enter in recovery, why?</b> <br/>
+My aboot files are the most recent KK versions, some of them have a new way to enter in recovery:<br/>
+-Old Way: Hold <b>power + vol down</b>, then, release and hold <b>power + vol down again</b>.<br/>
+-New Way: Hold <b>power + vol down</b>, then, release and hold <b>vol up + vol down</b>.
+
+<b>How D803 & D805/6 bootstacks are available, if they are stuck on KK? [WIP]</b> <br/>
+D805/6 share the same hardware with D802, except MODEM. So, here, we're using LP files from D802, with aboot & laf from D805 KK. The baseband is the same from D802 too, but, edited with d805 modem files.<br/>
+D803 is using KK files, except by the modem, that is the same from D802, but, edited with D803 modem files.
 	
 <b>Have any issue?</b> <br/>
 [Report Here] (https://github.com/danielstuart14/bootstacks/issues)
