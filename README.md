@@ -13,7 +13,7 @@ LS980    | KitKat  	   	     | Lollipop           | Only Bump		    | Yes		 | CM 
 VS980    | KitKat 	   	     | Lollipop           | Only Bump		    | Yes 		 | CM 12.1 CAF
 
 <b>-FAQ-</b> <br/> <br/>
-<b>What is bootstrap?</b>  <br/>
+<b>What is boostacks?</b>  <br/>
 It's a set of images, that are essential for your device. These hybrid bootstracks use all the images from lollipop, except aboot & laf, that are from kitkat. So, we can have bump working with LP partitions.
 	
 <b>What is in it? (Except D803)</b> <br/>
