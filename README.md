@@ -8,7 +8,7 @@ D801      | KitKat   	        | Lollipop           | Only Bump		    	 | Yes  	  
 D802      | KitKat	   	      | Lollipop           | Only Bump 		  		 | Yes 		 	  | CM 12.1 CAF
 D803      | KitKat	   	      | KitKat             | Only Bump 		 		   | Yes 		 	  | CM 12.1 CAF
 D805/6    | KitKat	   	      | Lollipop           | Only Bump 		 		   | Yes 		 	  | CM 12.1 CAF
-F320L/K/S | KitKat     	      | Lollipop           | Only Bump		   		 | Yes  	    | CM 12.1 CAF
+F320K/L/S | KitKat     	      | Lollipop           | Only Bump		   		 | Yes  	    | CM 12.1 CAF
 LS980     | KitKat  	   	    | Lollipop           | Only Bump		   		 | Yes		    | CM 12.1 CAF
 VS980     | KitKat 	   	      | Lollipop           | Only Bump		   		 | Yes 		 	  | CM 12.1 CAF
 
