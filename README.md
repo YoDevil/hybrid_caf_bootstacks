@@ -40,8 +40,8 @@ My aboot files are the most recent KK versions, some of them have a new way to e
 <b>-New Way:</b> Hold <b>power + vol down</b>, then, release and hold <b>vol up + vol down</b>.
 
 <b>How D803 & D805/6 bootstacks are available, if they are stuck on KK?</b> <br/>
-<b>-D805/6</b> share the same hardware with D802, except MODEM. So, it uses D802 bootstacks and an edited D802 baseband with d805 modem files. Also, the KK aboot/laf are from D805, this way it doesn't mess kdz update.<br/>
-<b>-D803</b> is using D803 KK bootstacks, except by the modem, that is the same from D801, but, edited with D803 modem files.
+<b>-D805/6</b> shares the same hardware with D802, except by MODEM. So, we're using here D802 bootstacks and an edited D802 baseband with d805 radio files. Also, the KK aboot/laf are from D805, this way it doesn't mess kdz update.<br/>
+<b>-D803</b> is using D803 KK bootstacks, except by the baseband, which is the same from D801, but, edited with D803 radio files.
 
 <b>Have any issue?</b> <br/>
 [Report Here] (https://github.com/danielstuart14/bootstacks/issues)
