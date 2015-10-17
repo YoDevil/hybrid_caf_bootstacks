@@ -1,16 +1,16 @@
 Bootstacks Hybrid for LG G2 CAF
 =====================================
 
-Variant  | Aboot/Laf Version | Bootstacks Version | Loki/Bump Support   | Assert zip | CM Version
+Variant   | Aboot/Laf Version | Bootstacks Version | Loki/Bump Support   | Assert zip | CM Version
 ---------:|:-----------------:|:------------------:|:-------------------:|:----------:|:------------
-D800      | KitKat 	          | Lollipop           | Only Bump		       | Yes  	    | CM 12.1 CAF
-D801      | KitKat   	        | Lollipop           | Only Bump		    	 | Yes  	    | CM 12.1 CAF
-D802      | KitKat	   	      | Lollipop           | Only Bump 		  		 | Yes 		 	  | CM 12.1 CAF
-D803      | KitKat	   	      | KitKat             | Only Bump 		 		   | Yes 		 	  | CM 12.1 CAF
-D805/6    | KitKat	   	      | Lollipop           | Only Bump 		 		   | Yes 		 	  | CM 12.1 CAF
-F320K/L/S | KitKat     	      | Lollipop           | Only Bump		   		 | Yes  	    | CM 12.1 CAF
-LS980     | KitKat  	   	    | Lollipop           | Only Bump		   		 | Yes		    | CM 12.1 CAF
-VS980     | KitKat 	   	      | Lollipop           | Only Bump		   		 | Yes 		 	  | CM 12.1 CAF
+D800      | KitKat 	          | Lollipop           | Only Bump		     | Yes  	  | CM 12.1 CAF
+D801      | KitKat   	      | Lollipop           | Only Bump		     | Yes  	  | CM 12.1 CAF
+D802      | KitKat	   	      | Lollipop           | Only Bump 		  	 | Yes 		  | CM 12.1 CAF
+D803      | KitKat	   	      | KitKat             | Only Bump 		 	 | Yes 		  | CM 12.1 CAF
+D805/6    | KitKat	   	      | Lollipop           | Only Bump 		 	 | Yes 		  | CM 12.1 CAF
+F320K/L/S | KitKat     	      | Lollipop           | Only Bump		   	 | Yes  	  | CM 12.1 CAF
+LS980     | KitKat  	   	  | Lollipop           | Only Bump		   	 | Yes		  | CM 12.1 CAF
+VS980     | KitKat 	   	      | Lollipop           | Only Bump		   	 | Yes 		  | CM 12.1 CAF
 
 <b>-FAQ-</b> <br/> <br/>
 <b>What is bootstacks?</b>  <br/>
@@ -39,8 +39,7 @@ My aboot files are the most recent KK versions, some of them have a new way to e
 <b>-Old Way:</b> Hold <b>power + vol down</b>, then, release and hold <b>power + vol down again</b>.<br/>
 <b>-New Way:</b> Hold <b>power + vol down</b>, then, release and hold <b>vol up + vol down</b>.
 
-<b>How D803 & D805/6 bootstacks are available, if they are stuck on KK?</b> <br/>
-<b>-D805/6</b> shares the same hardware with D802, except by MODEM. So, we're using here D802 bootstacks and an edited D802 baseband with d805 radio files. Also, the KK aboot/laf are from D805, this way it doesn't mess kdz update.<br/>
+<b>How D803 bootstack is available, if it's stuck on KK?</b> <br/>
 <b>-D803</b> is using D803 KK bootstacks, except by the baseband, which is the same from D801, but, edited with D803 radio files.
 
 <b>Have any issue?</b> <br/>
