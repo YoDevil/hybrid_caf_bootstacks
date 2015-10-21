@@ -16,11 +16,12 @@ VS980     | KitKat 	   	      | Lollipop           | Only Bump		   	 | Yes 		  |
 <b>What is bootstacks?</b>  <br/>
 It's a set of images, that are essential for your device. These hybrid bootstracks use all the images from lollipop, except aboot & laf, that are from kitkat. So, we can have bump working with LP partitions.
 
-<b>What is in it? (Except D803)</b> <br/>
+<b>What is in it? (Except D803)</b><br/>
 -Aboot (KK)<br/>
 -Dbi (LP)<br/>
--Laf (KK)<br/>
+-Laf (LP) (SIGNED WITH BUMP)<br/>
 -Modem (LP)<br/>
+-Persist (LP) (Except LS980)<br/>
 -Rpm (LP)<br/>
 -Sbl1  (LP)<br/>
 -tz (LP)<br/>
