@@ -1,5 +1,5 @@
-Bootstacks Hybrid for LG G2 CAF
-=====================================
+LG G2 Hybrid Bootstacks for CM-12.1, CM-13.0 & STOCK LP.
+==========================================================
 
 Variant   | Aboot/Laf Version | Bootstacks Version | Loki/Bump Support | Assert zip | CM Version
 ---------:|:-----------------:|:------------------:|:-----------------:|:----------:|:------------
@@ -27,6 +27,11 @@ It's a set of images, that are essential for your device. These hybrid bootstrac
 -Sbl1  (LP)<br/>
 -tz (LP)<br/>
 
+<b>Which roms it works?</b> <br/>
+<b>CM-12.1</b>, and any rom based on it.<br/>
+<b>CM-13.0</b>, and any rom based on it.<br/>
+<b>LP STOCK</b>, and any rom based on it.<br/>
+
 <b>What is assert?</b> <br/>
 Assert is a command line in zip script, it checks if you're flashing a compatible bootstrap with your device.
 
@@ -45,7 +50,7 @@ My aboot files are the most recent KK versions, some of them have a new way to e
 <b>-D803</b> is using D803 KK bootstacks, except by the baseband, which is the same from D801, but, edited with D803 radio files.
 <b>-L22</b> is using L22 KK bootstacks, except by the baseband, which is the same from D802, but, edited with L22 radio files.
 
-<b>Why Laf isn't giving secure booting error, if it's using LP version?</b> <br/>
+<b>Why Laf isn't giving secure booting error, if we're using LP version?</b> <br/>
 As everybody knows, until now, we were using KK Laf + KK Aboot. This was because new LP images have a new image signature. So, to make it boot on KK Aboot, I broke LP signature (Extracting the ramdisk and packing it again) and then I bumped it using [open_bump] (http://forum.xda-developers.com/lg-g2/orig-development/tool-bump-sign-boot-images-t2950595).
 
 <b>Have any issue?</b> <br/>
