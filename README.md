@@ -53,7 +53,7 @@ My aboot files are the most recent KK versions, some of them have a new way to e
 <b>Why Laf isn't giving secure booting error, if we're using LP version?</b> <br/>
 As everybody knows, until now, we were using KK Laf + KK Aboot. This was because new LP images have a new image signature. So, to make it boot on KK Aboot, I broke LP signature (Extracting the ramdisk and packing it again) and then I bumped it using [open_bump] (http://forum.xda-developers.com/lg-g2/orig-development/tool-bump-sign-boot-images-t2950595).
 
-</b>Attention! Devices stuck on JB will not be add! Ex: L-01F DOCOMO</b>
+<b>Attention! Devices stuck on JB will not be add! Ex: L-01F DOCOMO</b>
 
 <b>Have any issue?</b> <br/>
 [Report Here] (https://github.com/danielstuart14/bootstacks/issues)
