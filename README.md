@@ -9,6 +9,7 @@ D802      | KitKat	   	      | Lollipop           | Only Bump 		  	 | Yes 		    
 D803      | KitKat	   	      | KitKat             | Only Bump 		 	   | Yes 		    | CM 12.1 CAF
 D805/6    | KitKat	   	      | Lollipop           | Only Bump 		 	   | Yes 		    | CM 12.1 CAF
 F320K/L/S | KitKat     	      | Lollipop           | Only Bump		   	 | Yes  	    | CM 12.1 CAF
+L22       | KitKat  	   	    | KitKat           | Only Bump		   	 | Yes		    | CM 12.1 CAF
 LS980     | KitKat  	   	    | Lollipop           | Only Bump		   	 | Yes		    | CM 12.1 CAF
 VS980     | KitKat 	   	      | Lollipop           | Only Bump		   	 | Yes 		    | CM 12.1 CAF
 
@@ -16,7 +17,7 @@ VS980     | KitKat 	   	      | Lollipop           | Only Bump		   	 | Yes 		   
 <b>What is bootstacks?</b>  <br/>
 It's a set of images, that are essential for your device. These hybrid bootstracks use all the images from lollipop, except aboot & laf, that are from kitkat. So, we can have bump working with LP partitions.
 
-<b>What is in it? (Except D803)</b><br/>
+<b>What is in it? (Except D803 & L22)</b><br/>
 -Aboot (KK)<br/>
 -Dbi (LP)<br/>
 -Laf (LP) (SIGNED WITH BUMP)<br/>
@@ -40,8 +41,9 @@ My aboot files are the most recent KK versions, some of them have a new way to e
 <b>-Old Way:</b> Hold <b>power + vol down</b>, then, release and hold <b>power + vol down again</b>.<br/>
 <b>-New Way:</b> Hold <b>power + vol down</b>, then, release and hold <b>vol up + vol down</b>.
 
-<b>How D803 bootstack is available, if it's stuck on KK?</b> <br/>
+<b>How D803 & L22 bootstacks are available, if they're stuck on KK?</b> <br/>
 <b>-D803</b> is using D803 KK bootstacks, except by the baseband, which is the same from D801, but, edited with D803 radio files.
+<b>-L22</b> is using L22 KK bootstacks, except by the baseband, which is the same from D802, but, edited with L22 radio files.
 
 <b>Why Laf isn't giving secure booting error, if it's using LP version?</b> <br/>
 As everybody knows, until now, we were using KK Laf + KK Aboot. This was because new LP images have a new image signature. So, to make it boot on KK Aboot, I broke LP signature (Extracting the ramdisk and packing it again) and then I bumped it using [open_bump] (http://forum.xda-developers.com/lg-g2/orig-development/tool-bump-sign-boot-images-t2950595).
