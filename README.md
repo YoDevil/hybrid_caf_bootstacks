@@ -1,17 +1,17 @@
 LG G2 Hybrid Bootstacks
 ========================
 
-Variant   | Aboot/Laf Version | Bootstacks Version | Loki/Bump Support | Assert zip | CM Version
----------:|:-----------------:|:------------------:|:-----------------:|:----------:|:------------
-D800      | KitKat 	          | Lollipop           | Only Bump		     | Yes  	    | CM 12.1 CAF
-D801      | KitKat   	        | Lollipop           | Only Bump		     | Yes  	    | CM 12.1 CAF
-D802      | KitKat	   	      | Lollipop           | Only Bump 		  	 | Yes 		    | CM 12.1 CAF
-D803      | KitKat	   	      | KitKat             | Only Bump 		 	   | Yes 		    | CM 12.1 CAF
-D805/6    | KitKat	   	      | Lollipop           | Only Bump 		 	   | Yes 		    | CM 12.1 CAF
-F320K/L/S | KitKat     	      | Lollipop           | Only Bump		   	 | Yes  	    | CM 12.1 CAF
-L22       | KitKat  	   	    | KitKat             | Only Bump		   	 | Yes		    | CM 12.1 CAF
-LS980     | KitKat  	   	    | Lollipop           | Only Bump		   	 | Yes		    | CM 12.1 CAF
-VS980     | KitKat 	   	      | Lollipop           | Only Bump		   	 | Yes 		    | CM 12.1 CAF
+Variant   | Aboot/Laf Version | Bootstacks Version | Loki/Bump Support | Assert zip
+---------:|:-----------------:|:------------------:|:-----------------:|:-----------
+D800      | KitKat 	          | Lollipop           | Only Bump		     | Yes  	    
+D801      | KitKat   	        | Lollipop           | Only Bump		     | Yes  	    
+D802      | KitKat	   	      | Lollipop           | Only Bump 		  	 | Yes 		    
+D803      | KitKat	   	      | KitKat             | Only Bump 		 	   | Yes 		    
+D805/6    | KitKat	   	      | Lollipop           | Only Bump 		 	   | Yes 		    
+F320K/L/S | KitKat     	      | Lollipop           | Only Bump		   	 | Yes  	    
+L22       | KitKat  	   	    | KitKat             | Only Bump		   	 | Yes		    
+LS980     | KitKat  	   	    | Lollipop           | Only Bump		   	 | Yes		    
+VS980     | KitKat 	   	      | Lollipop           | Only Bump		   	 | Yes 		    
 
 <b>-FAQ-</b> <br/> <br/>
 <b>What is bootstacks?</b>  <br/>
